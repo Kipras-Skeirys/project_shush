@@ -4,4 +4,4 @@
 
 Work in progess...
 
-Should upload the whole project by march 18.
+Should be finished by march 18.
