@@ -1,4 +1,4 @@
-<div style="text-align:center"><img src ="assets/images/500x500_dark.png"/></div>
+<div style="text-align:center"><img src ="assets/images/500x500_color.png"/></div>
 
 # project_shush
 
