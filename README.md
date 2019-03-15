@@ -1,6 +1,6 @@
 <div align="center"><img src ="assets/images/250x250_color.png"/></div>
 
-# web app for "secure" communication
+# project_sush
 
 Work in progess...
 
