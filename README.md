@@ -4,4 +4,3 @@
 ## About
 
 Work in progess...
-Should be finished by march 20
