@@ -1,4 +1,4 @@
-<div align="center"><img src ="assets/images/logo_500x500_color-dark.png"/></div>
+<div align="center"><img style="width:400px" src="assets/images/logo_500x500_color-dark.png"/></div>
 
 
 ## About
