@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>shush - Session</title>
+        <link rel="icon" href="favicon.ico">
+        <audio id="sound-new-msg" src="assets/sounds/stairs.mp3" preload="auto" playsinline></audio>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    </head>
+    <body>
+        <!-- Top bar -->
+        <div class="top-bar">
+            
+        </div>
+        <!-- Chat area -->
+        <div class="chat-area" id="chat-area">
+            <div class="chat-area-c" id="chat-c">
+                <!-- Chat bubbles -->
+                
+            </div>
+        </div>
+        <!-- bottom bar -->
+        <label class="bottom-bar" for="msg-input">
+            <div class="bottom-bar-content">
+                <form class="send-form" onSubmit="return false">
+                    <textarea type="text" name="msg" id="msg-input" placeholder="Type a message..." rows="1" autofocus></textarea>
+                    <input class="button-txt-dark" type="submit" value="Send" onclick="sendMsg()">
+                </form>
+            </div>
+        </label>
+        <script src="assets/scripts/script.js"></script>
+    </body>
+</html>

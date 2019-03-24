@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>shush - Invitation</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <div class="content-wraper flex-horizontal-center">
+            <!-- Top-bar -->
+            <div class="pre-app-bar hero-bar flex-between">
+                <img src="assets/images/logo_500x500_color-dark.png" class="logo-container flex-center">
+                <a href="index.html" class="color-dark bold"><i class="fas fa-arrow-left"></i>Home page</a>
+            </div>
+            <!-- Main part -->
+            <div class="main-container-wraper flex-horizontal-center flex-column">
+                <div class="header-content">
+                    <h1 class="large-txt-plus color-dark">You have been invited...</h1>
+                    <h2 class="medium-txt color-dark">Just simply state your alias and join the session.</h2>
+                </div>
+                <div class="selector-container" id="selector">
+                    <span id="select-1" class="button-round-selected">INVITATION</span>
+                </div>
+                <div class="main-conteiner flex-horizontal-center flex-wrap">
+                    <div class="triangle" style="transform: translateX(0)"></div>
+                    <div class="main-content-conteiner">
+                        <!-- INVITATION -->
+                        <div class="invitation"  id="session">
+                            <p>Someone would like to have a chat with you.<br>All you need to do is just click <span class="bold">join</span>.</p>
+                            <form enctype="application/x-www-form-urlencoded" method="POST">
+                                <input type="text" class="input-field-white" name="alias" placeholder="Type your alias..." autofocus>
+                                <input type="submit" class="button-round-selected" name="join" value="Join">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="assets/scripts/main.js"></script>
+    </body>
+</html>

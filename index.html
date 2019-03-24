@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>shush - Home</title>
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+            <div class="hero-wraper">
+                <div class="content-wraper">
+                    <!-- Top-bar -->
+                    <div class="hero-bar index flex-between">
+                        <img src="assets/images/logo_500x500_color-light.png" class="logo-container flex-center">
+                        <i id="burger-icon" class="fas fa-bars color-white" onclick="showNav()"></i>
+                        <nav id="nav">
+                            <ul class="flex-vertical-center">
+                                <i class="fas fa-times color-white x" onclick="hideNav()"></i>
+                                <li class="medium-txt nav-li"><a href="#home">Home</a></li>
+                                <li class="medium-txt nav-li"><a href="#steps">About</a></li>
+                                <li class="medium-txt nav-li"><a href="#features">Features</a></li>
+                                <li class="nav_btn"><a href="create.php" class="button-white">Go to app</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- Hero content -->
+                    <div class="hero-content-wraper flex-vertical-center">
+                        <div class="hero-content">
+                            <h1 class="color-white large-txt-plus">Making privacy great again</h1>
+                            <h3 class="color-white medium-txt"> Secure messaging. Quick setup. No logs.</h3>
+                            <a class="button-blue" href="create.php">Go to app</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="content-wraper">
+            <!-- STEPS -->
+            <section id="steps" class="steps">
+                <div class="steps-content-wraper flex-between">
+                    <div>
+                        <h3 class="large-txt color-dark">Create</h3>
+                        <p class="small-txt color-dark">With one click you can create an end-to-end encrypted chat session or just a simple one-way burner message in seconds.<br>No signup, no personal information, no logs.</p>
+                    </div>
+                    <div>
+                        <h3 class="large-txt color-dark">Invite</h3>
+                        <p class="small-txt color-dark">After creating the new session all you need to do is just send the unique link to your buddy.<br>When both parties have joined, the session goes on lockdown so no one else can join.</p>
+                    </div>
+                    <div>
+                        <h3 class="large-txt color-dark">Delete</h3>
+                        <p class="small-txt color-dark">No information is kept that can set you apart from any other user on this platform.<br>At any time you can wipe clean everything that is related to you and your buddy with a single click.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- FEATURES -->
+            <section class="features" id="features">
+                <div class="feature-wraper feature-session flex-between flex-wrap">
+                    <div class="feature-content">
+                        <h2 class="large-txt color-dark">Have a quick off-the-record chat with anyone</h2>
+                        <p class="small-txt color-dark">Create new private temporary sessions in seconds. No signup is necessary. No personal information required. Aliquam condimentum purus eget lectus finibus, ac ultricies lorem semper. Duis facilisis sit amet elit id tempor. In fringilla sollicitudin felis at vehicula. In lacinia maximus tortor nec fermentum.</p>
+                        <a class="button-blue" href="create.php">Start a session</a>
+                    </div>
+                    <div class="feature-image-conteiner">
+                        <img src="assets/images/session_image.png" class="feature-image">
+                    </div>
+                </div>
+                <div class="feature-wraper feature-message flex-between flex-wrap flex-reverse">
+                    <div class="feature-content">
+                        <h2 class="large-txt color-dark">Send all your sensitive information with a one time message</h2>
+                        <p class="small-txt color-dark">End-to-end encrypted messages that get destroyed after being read. Noz cookies, no logs, no trouble. Aliquam condimentum purus eget lectus finibus, ac ultricies lorem semper. Duis facilisis sit amet elit id tempor. In fringilla sollicitudin felis at vehicula. In lacinia maximus tortor nec fermentum.</p>
+                        <a class="button-blue" href="create.php">Send a message</a>
+                    </div>
+                    <div class="feature-image-conteiner">
+                        <img src="assets/images/message_image.png" class="feature-image">
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- FOOTER -->
+        <footer>
+            <div class="pre-footer-wraper flex-horizontal-center">
+                <div class="pre-footer-container">
+                    <h3 class="large-txt color-dark">What are you waiting for?</h3>
+                    <p class="medium-txt">Start having of-the-recod conversations right now.</p>
+                    <a class="button-blue" href="create.php">Go to app</a>
+                </div>
+            </div>
+            <div class="footer small-txt flex-between">
+                <span>Copyright © 2019</span>
+                <span>VCS Project - created by Kipras S.</span>
+            </div>
+        </footer>
+        
+        <script>
+            function showNav(){
+                document.getElementById("nav").style.width = "200px";
+                document.getElementById("burger-icon").style.display = "none";
+            }
+
+            function hideNav(){
+                document.getElementById("nav").style.width = "";
+                document.getElementById("burger-icon").style.display = "block";
+            }
+            
+            window.matchMedia("(min-width: 700px)").addListener(function(w){
+                if(w.matches){
+                    // CLEARING JS CREATED INLINE-CSS
+                    document.getElementById("nav").style.width = "";
+                    document.getElementById("burger-icon").style.display = "";
+                }
+            });
+        </script>
+    </body>
+</html>
