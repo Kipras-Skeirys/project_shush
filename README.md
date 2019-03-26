@@ -3,4 +3,7 @@
 
 ## About
 
+Project hosted on:
+www.shush.us.lt
+
 Work in progess...
