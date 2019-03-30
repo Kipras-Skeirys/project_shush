@@ -6,6 +6,6 @@
 Project hosted on:
 www.shush.us.lt
 
-<div align="center"><img src="https://s2.gifyu.com/images/landing-page-preview.gif"/></div>
+<a href="https://gifyu.com/image/3U7Q"><img src="https://s2.gifyu.com/images/landing-page-preview.md.gif" alt="landing-page-preview.gif" border="0" /></a>
 
 Work in progess...
