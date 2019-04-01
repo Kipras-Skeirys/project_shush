@@ -2,6 +2,7 @@
 Project hosted on:
 www.shush.us.lt
 ![GitHub Logo](assets/images/logo_500x500_color-dark.png)
+Format: ![Alt Text](url)
 
 ## Intro
 
