@@ -22,12 +22,12 @@ This project consists of 3 different sections:
 ### File architeture and database scheme
 
 **process.php** - is the brain of the whole operation. It is responsible for creating new chat sessions, dealing with messages and user status.
-![alt text](process-php-code.png "process-php-code")
+![alt text](demo-assets/process-php-code.png "process-php-code")
 
 **chat.php** - *is the only php script that is outside process.php. It is responsible for authenticating or creating a new user and re-directing him to the right place.*
 
 **script.js** - *is a mishmash of ajax requests and code for better interactiveness.*
-![alt text](javascript-code.png "javascript-code")
+![alt text](demo-assets/javascript-code.png "javascript-code")
 
 **Database** - *I am fully aware that this DB scheme design isn’t the best, but as this is the first time for me working with a databases this will do.*
 ![alt text](demo-assets/database-scehem-noBG.png "database-scheme")
