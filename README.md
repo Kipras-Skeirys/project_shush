@@ -52,11 +52,11 @@ Upon pressing the create button an ajax request is sent to process.php, where a 
 
 ### app
 
-The first thing that happens when joining a chat session is user authentication. That basically works like this:\s\s
-non-existing session url -> re-direct to app index\s\s
-existing session url -> session is full -> re-direct to app index\s\s
-existing session url -> session not full -> $_SESSION credentials do not match on database -> create new user -> procees to session\s\s
-existing session url -> $_SESSION credentials match on database -> procees to session
+The first thing that happens when joining a chat session is user authentication. That basically works like this:
+  - non-existing session url -> re-direct to app index
+  - existing session url -> session is full -> re-direct to app index
+  - existing session url -> session not full -> $_SESSION credentials do not match on database -> create new user -> procees to session
+  - existing session url -> $_SESSION credentials match on database -> procees to session
 
 Right after the authentication a js script will trigger and send an update of your status to the database that you have connected. User status is a feature for better user experience so that users could see if the other user is connected or disconnected.
 
