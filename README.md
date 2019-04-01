@@ -15,7 +15,7 @@ This project consists of 3 different sections:
 
 ## How does it work
 
-# File architeture and database scheme
+### File architeture and database scheme
 
 process.php - is the brain of the whole operation. It is responsible for creating new chat sessions, dealing with messages and user status.
 
@@ -25,13 +25,13 @@ script.js - is a mishmash of ajax requests and code for better interactiveness.
 
 Database - I am fully aware that this DB scheme design isn’t the best, but as this is the first time for me working with a databases this will do.
 
-# Landing/product page
+### Landing/product page
 
 As the course I was taking was mainly focused for developing wordpress responsive websites and not specificly web app’s, I figured to not go to far of the track I’ll make a responsive landing page for my app.
 
 [GIF - showing responsivness]
 
-# pre-app
+### pre-app
 
 pre-app section consists of two different parts - creation page and invitation page.
 
@@ -43,7 +43,7 @@ The creation page is basiclly the index page of the app. If you’ll try accessi
 
 Upon pressing the create button an ajax request is sent to process.php, where a unique 10 character random string is generated, everything is uploaded to the database, certain information saved to $_SESSION for user authentication and finally ajax callback returns a unique link to the javascript.
 
-# pre-app
+### pre-app
 
 The first thing that happens when joining a chat session is user authentication. That basically works like this:
 non-existing session url -> re-direct to app index
@@ -57,25 +57,25 @@ Right after the authentication a js script will trigger and send an update of yo
 
 ## What have I learned and impoved on
 
-# HTML&CSS
+### HTML&CSS
 Writing efficient dry CSS, maximizing accessibility and responsiveness. But still need to work on consistent css naming methodology. Regarding the actual HTML there was nothing that big that I learned that I haven’t known before, just some tricks here and there for readability, validity and SEO.
 
-# UI&UX
+### UI&UX
 Making UI wasn’t too difficult because of previous experience with graphic design. But on other hand UX was a whole another story. Right from the start, I knew that I want to make this app as straightforward as possible. So designing everything from scratch without using any kind of template I had to go through some trial and error, and that actually help me on understanding how UX design works. And at the end I think I did a pretty good job with with some room for improvement.
 
-# AJAX&JSON
+### AJAX&JSON
 Considering the lack of my knowledge in networking and that Ajax wasn’t a part of the course, I got a grasp for it pretty fast. The start was a bit rought, but after a couple of days of trying and failing, I got a hang of it. A big factor to note that I decided to do this project without using jQuery which made learning on my own extremely challenging. The lack of documentation(except the MDN one) or examples that uses vanilla js was just underwhelming.
 
-# Networking
+### Networking
 Got a glimpse at how some basic networking works on a web site(HTTP and POST/GET methods)
 
-# MySQL&Database
+### MySQL&Database
 Gained a solid understanding of how basic MySQL works and feel pretty confortable working with it. But nevertheless big emphasis on “basic”. There are a lot of room for improvements. For example learning best practices for database table architecture, efficiency and most importantly security.
 
-# PHP&Javascript
+### PHP&Javascript
 Improved a lot in writing clean, dry code. Learned how to write code in to “sections” to reduce indentation nesting and improve reusability and readability. Specifically with php, the most notible things that I learned are: how to work with POST/GET methods, JSON, MySQL querry’s, php sessions and how to escape users input to prevent xss.
 
-# Security
+### Security
 Got to know with some basic web security mesures on how to protect from xss, csrf, sql and other injections. The only part I am sad that I did not have time to play with is encryption. Especially I was looking forward in learn how end-to-end encryption work and how to apply it to my app.
 
 ## Upcoming features
