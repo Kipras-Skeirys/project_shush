@@ -50,7 +50,7 @@ The creation page is basiclly the index page of the app. If you’ll try accessi
 
 Upon pressing the create button an ajax request is sent to process.php, where a unique 10 character random string is generated, everything is uploaded to the database, certain information saved to $_SESSION for user authentication and finally ajax callback returns a unique link to the javascript.
 
-### pre-app
+### app
 
 The first thing that happens when joining a chat session is user authentication. That basically works like this:
 non-existing session url -> re-direct to app index
