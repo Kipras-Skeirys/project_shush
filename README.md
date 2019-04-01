@@ -2,7 +2,12 @@
 Project hosted on:
 www.shush.us.lt
 
-Take me to [Intro](#Intro)
+Navigation:
+  - [Intro](#Intro)
+  - [How does it work](#Work)
+  - [Upcoming features](#Upcoming)
+  - [Bugs](#Bugs)
+  - [What have I learned](#Learned)
 
 ## <a name="Intro"></a>Intro
 
@@ -15,7 +20,7 @@ This project consists of 3 different sections:
 - pre-app
 - app
 
-## How does it work
+## <a name="Work"></a>How does it work
 
 ### File architeture and database scheme
 
@@ -57,19 +62,19 @@ Right after the authentication a js script will trigger and send an update of yo
 
 [GIF - showing chat]
 
-## Upcoming features
+## <a name="Upcoming"></a>Upcoming features
 
   - All around good encryption, preferably end-to-end
   - pre-app and in-app settings
   - Add alternative communication method - one way burner message
 
-## Bugs
+## <a name="Bugs"></a>Bugs
 
   - Easy to manipulate your “status” though js injection. Triggering a specific function will give the other user a notice that you have diconnected from the session, while you still being able to read and reply to messages.
   - At some specific situations user “status” will not alert that user has left the chat - user status is updated by eventlisteners that detects page closing(disconnect) and page loading(connect). So in a case where session #1 is active while on the same browser a new tab session #2 was created. In this case session #1 will seamlessly become session #2. S in this instance, there was no page reload -> eventlistener didn’t triggered -> session #1 status still “connected”.
   - Message loss - If two messages are sent at the same time(millisecond accuracy), there is a chance on one of them disappearing.
   
-## What have I learned and impoved on
+## <a name="Learned"></a>What have I learned and impoved on
 
 ### HTML&CSS
 Writing efficient dry CSS, maximizing accessibility and responsiveness. But still need to work on consistent css naming methodology. Regarding the actual HTML there was nothing that big that I learned that I haven’t known before, just some tricks here and there for readability, validity and SEO.
