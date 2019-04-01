@@ -50,6 +50,8 @@ The creation page is basiclly the index page of the app. If you’ll try accessi
 
 Upon pressing the create button an ajax request is sent to process.php, where a unique 10 character random string is generated, everything is uploaded to the database, certain information saved to $_SESSION for user authentication and finally ajax callback returns a unique link to the javascript.
 
+![alt text](demo-assets/creation-demo.gif "creation-demo")
+
 ### <a name="app"></a>app
 
 The first thing that happens when joining a chat session is user authentication. That basically works like this:
@@ -60,7 +62,7 @@ The first thing that happens when joining a chat session is user authentication.
 
 Right after the authentication a js script will trigger and send an update of your status to the database that you have connected. User status is a feature for better user experience so that users could see if the other user is connected or disconnected.
 
-[GIF - showing chat]
+![alt text](demo-assets/app-demo.gif "app-demo")
 
 ## <a name="TODO"></a>TODO
 
