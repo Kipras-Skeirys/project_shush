@@ -5,7 +5,7 @@ www.shush.us.lt
 Navigation:
   - [Intro](#Intro)
   - [How does it work](#Work)
-  - [Upcoming features](#Upcoming)
+  - [TODO](#TODO)
   - [Bugs](#Bugs)
   - [What have I learned](#Learned)
 
@@ -62,7 +62,7 @@ Right after the authentication a js script will trigger and send an update of yo
 
 [GIF - showing chat]
 
-## <a name="Upcoming"></a>Upcoming features
+## <a name="TODO"></a>TODO
 
   - All around good encryption, preferably end-to-end
   - pre-app and in-app settings
