@@ -28,6 +28,7 @@ chat.php - is the only php script that is outside process.php. It is responsible
 script.js - is a mishmash of ajax requests and code for better interactiveness.
 
 Database - I am fully aware that this DB scheme design isn’t the best, but as this is the first time for me working with a databases this will do.
+<img src="demo-assets/database-scehem-noBG.png"/>
 
 ###  <a name="Landing"></a>Landing/product page
 
