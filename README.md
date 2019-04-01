@@ -82,7 +82,7 @@ Right after the authentication a js script will trigger and send an update of yo
 ## <a name="Bugs"></a>Bugs
 
   - Easy to manipulate your “status” though js injection. Triggering a specific function will give the other user a notice that you have disconnected from the session, while you still being able to read and reply to messages.
-  - At some specific situations, user “status” will not alert that user has left the chat - user status is updated by event listeners that detect page closing(disconnect) and page loading(connect). So in a case where session #1 is active while on the same browser a new tab session #2 was created. In this case, session #1 will seamlessly become session #2. S in this instance, there was no page reload -> event listener didn’t trigger -> session #1 status still “connected”.
+  - User status does not reliably trigger disconnect
   - Message loss - If two messages are sent at the same time(millisecond accuracy), there is a chance on one of them disappearing.
   
 ## <a name="Learned"></a>What have I learned and impoved on
