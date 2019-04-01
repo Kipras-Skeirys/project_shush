@@ -25,7 +25,7 @@ This project consists of 3 different sections:
 
 **process.php** - is the brain of the whole operation. It is responsible for creating new chat sessions, dealing with messages and user status.
 ![alt text](demo-assets/process-php-code.png "process-php-code")
-*process.php prieview*
+>process.php prieview
 ***
 
 **chat.php** - is the only PHP code that is outside process.php. It is responsible for authenticating or creating a new user and re-directing him to the right place.
@@ -33,7 +33,7 @@ This project consists of 3 different sections:
 
 **script.js** - is responsible for both pre-app and in-app and is a mishmash of ajax requests and code for better interactiveness.
 ![alt text](demo-assets/javascript-code.png "javascript-code")
-*script.js prieview*
+> script.js prieview
 ***
 
 **Database** - I am fully aware that this DB scheme design isn’t the best, but as this is the first time for me working with a database this will do.
@@ -46,6 +46,8 @@ This project consists of 3 different sections:
 As the course I was taking was mainly focused for developing WordPress responsive websites and not specifically web app’s, I figured to not go too far of the track I’ll make a responsive landing page for my app.
 
 ![alt text](demo-assets/landing-page-preview.gif "landing-page-preview")
+> preview of landing page responsiveness
+***
 
 ### <a name="pre-app"></a>pre-app
 
@@ -54,6 +56,7 @@ the pre-app section consists of two different parts - creation page and invitati
 The invitation page is triggered when you get invited to a new session for the first time. On this page, the only thing you can do is state your alias(or not, it’s optional), click “join” and proceed to the session.
 
 ![alt text](demo-assets/invitation-demo.gif "invitation-demo")
+> preview of invitation page
 
 The creation page does exactly that what the title states - “creates” a session. Here you can choose your alias and adjust the setting of your choosing. But as I stated before I wanted this to be as easy of a setup as possible, so you can actually leave the alias blank as it is an optional requirement and just simply proceed on creating your chat session right away.
 
@@ -62,6 +65,7 @@ The creation page is basically the index page of the app. If you’ll try access
 Upon pressing the create button an ajax request is sent to process.php, where a unique 10 character random string is generated, everything is uploaded to the database, certain information saved to $_SESSION for user authentication and finally ajax callback returns a unique link to the javascript.
 
 ![alt text](demo-assets/creation-demo.gif "creation-demo")
+> preview of creation page
 
 ### <a name="app"></a>app
 
@@ -74,6 +78,7 @@ The first thing that happens when joining a chat session is user authentication.
 Right after the authentication a js script will trigger and send an update of your status to the database that you have connected. User status is a feature for a better user experience so that users could see if the other user is connected or disconnected.
 
 ![alt text](demo-assets/app-demo.gif "app-demo")
+> preview of a chat session
 
 ## <a name="TODO"></a>TODO
 
