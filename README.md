@@ -1,5 +1,6 @@
 <div align="center"><img width="300" src="assets/images/logo_500x500_color-dark.png"/></div>
 <div align="center">www.shush.us.lt</div>
+
   - [Intro](#Intro)
   - [How does it work](#Work)
   - [TODO](#TODO)
