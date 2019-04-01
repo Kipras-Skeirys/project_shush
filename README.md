@@ -21,7 +21,7 @@ This project consists of 3 different sections:
 
 ## <a name="Work"></a>How does it work
 
-### File architecture and database scheme
+### __File architecture and database scheme__
 
 **process.php** - is the brain of the whole operation. It is responsible for creating new chat sessions, dealing with messages and user status.
 ![alt text](demo-assets/process-php-code.png "process-php-code")
