@@ -36,7 +36,7 @@ This project consists of 3 different sections:
 
 As the course I was taking was mainly focused for developing wordpress responsive websites and not specificly web app’s, I figured to not go to far of the track I’ll make a responsive landing page for my app.
 
-[GIF - showing responsivness]
+![alt text](demo-assets/landing-page-preview.gif "landing-page-preview")
 
 ### <a name="pre-app"></a>pre-app
 
