@@ -1,22 +1,21 @@
 <div align="center"><img width="300" src="assets/images/logo_500x500_color-dark.png"/></div>
 <div align="center">www.shush.us.lt</div>
 
-  - [Intro](#Intro)
+## Intro
+
   - [How does it work](#Work)
   - [TODO](#TODO)
   - [Bugs](#Bugs)
   - [What have I learned](#Learned)
-
-## <a name="Intro"></a>Intro
 
 This is the outcome of a project that I developed at Vilnius Coding School while taking their one-month web developing course. I choose this kind of project so I could get the most out of the course, also just wanted to see how well I could develop an app from start to finish. But the most important reason is that it looked a whole lot of fun!
 
 So the initial idea was to make a one-time use chat service, that did not require any registration or personal information and was extremely straightforward to use for the end user. And it all went from there.
 
 This project consists of 3 different sections:
-- Landing/product page
-- pre-app
-- app
+- [Landing/product page](#Landing)
+- [pre-app](#pre-app)
+- [app](#app)
 
 ## <a name="Work"></a>How does it work
 
@@ -30,13 +29,13 @@ script.js - is a mishmash of ajax requests and code for better interactiveness.
 
 Database - I am fully aware that this DB scheme design isn’t the best, but as this is the first time for me working with a databases this will do.
 
-### Landing/product page
+###  <a name="Landing"></a>Landing/product page
 
 As the course I was taking was mainly focused for developing wordpress responsive websites and not specificly web app’s, I figured to not go to far of the track I’ll make a responsive landing page for my app.
 
 [GIF - showing responsivness]
 
-### pre-app
+### <a name="pre-app"></a>pre-app
 
 pre-app section consists of two different parts - creation page and invitation page.
 
@@ -48,7 +47,7 @@ The creation page is basiclly the index page of the app. If you’ll try accessi
 
 Upon pressing the create button an ajax request is sent to process.php, where a unique 10 character random string is generated, everything is uploaded to the database, certain information saved to $_SESSION for user authentication and finally ajax callback returns a unique link to the javascript.
 
-### app
+### <a name="app"></a>app
 
 The first thing that happens when joining a chat session is user authentication. That basically works like this:
   - non-existing session url -> re-direct to app index
