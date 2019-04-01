@@ -46,6 +46,8 @@ the pre-app section consists of two different parts - creation page and invitati
 
 The invitation page is triggered when you get invited to a new session for the first time. On this page, the only thing you can do is state your alias(or not, it’s optional), click “join” and proceed to the session.
 
+![alt text](demo-assets/invitation-demo.gif "invitation-demo")
+
 The creation page does exactly that what the title states - “creates” a session. Here you can choose your alias and adjust the setting of your choosing. But as I stated before I wanted this to be as easy of a setup as possible, so you can actually leave the alias blank as it is an optional requirement and just simply proceed on creating your chat session right away.
 
 The creation page is basically the index page of the app. If you’ll try accessing other parts of the app without proper authentication you’ll probably end up here.
