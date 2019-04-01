@@ -38,7 +38,7 @@ This project consists of 3 different sections:
 
 **Database** - I am fully aware that this DB scheme design isn’t the best, but as this is the first time for me working with a database this will do.
 ![alt text](demo-assets/database-scehem-noBG.png "database-scheme")
-<span style='margin:0px;pading:0px'> > Database structure graphic </span>
+> Database structure graphic
 ***
 
 ###  <a name="Landing"></a>Landing/product page
