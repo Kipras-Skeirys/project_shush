@@ -25,7 +25,7 @@ This project consists of 3 different sections:
 
 **process.php** - is the brain of the whole operation. It is responsible for creating new chat sessions, dealing with messages and user status.
 ![alt text](demo-assets/process-php-code.png "process-php-code")
-*process.php prieview*
+> *process.php prieview*
 
 **chat.php** - is the only PHP code that is outside process.php. It is responsible for authenticating or creating a new user and re-directing him to the right place.
 
