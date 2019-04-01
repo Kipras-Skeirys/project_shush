@@ -1,8 +1,8 @@
 <div align="center"><img width="300" src="assets/images/logo_500x500_color-dark.png"/></div>
 Project hosted on:
 www.shush.us.lt
-![GitHub Logo](assets/images/logo_500x500_color-dark.png)
-Format: ![Alt Text](url)
+
+Take me to [pookie](## Intro)
 
 ## Intro
 
