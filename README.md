@@ -1,6 +1,7 @@
 <div align="center"><img width="300" src="assets/images/logo_500x500_color-dark.png"/></div>
 Project hosted on:
 www.shush.us.lt
+![GitHub Logo](assets/images/logo_500x500_color-dark.png)
 
 ## Intro
 
@@ -55,6 +56,18 @@ Right after the authentication a js script will trigger and send an update of yo
 
 [GIF - showing chat]
 
+## Upcoming features
+
+  - All around good encryption, preferably end-to-end
+  - pre-app and in-app settings
+  - Add alternative communication method - one way burner message
+
+## Bugs
+
+  - Easy to manipulate your “status” though js injection. Triggering a specific function will give the other user a notice that you have diconnected from the session, while you still being able to read and reply to messages.
+  - At some specific situations user “status” will not alert that user has left the chat - user status is updated by eventlisteners that detects page closing(disconnect) and page loading(connect). So in a case where session #1 is active while on the same browser a new tab session #2 was created. In this case session #1 will seamlessly become session #2. S in this instance, there was no page reload -> eventlistener didn’t triggered -> session #1 status still “connected”.
+  - Message loss - If two messages are sent at the same time(millisecond accuracy), there is a chance on one of them disappearing.
+  
 ## What have I learned and impoved on
 
 ### HTML&CSS
@@ -77,15 +90,3 @@ Improved a lot in writing clean, dry code. Learned how to write code in to “se
 
 ### Security
 Got to know with some basic web security mesures on how to protect from xss, csrf, sql and other injections. The only part I am sad that I did not have time to play with is encryption. Especially I was looking forward in learn how end-to-end encryption work and how to apply it to my app.
-
-## Upcoming features
-
-  - All around good encryption, preferably end-to-end
-  - pre-app and in-app settings
-  - Add alternative communication method - one way burner message
-
-## Bugs
-
-  - Easy to manipulate your “status” though js injection. Triggering a specific function will give the other user a notice that you have diconnected from the session, while you still being able to read and reply to messages.
-  - At some specific situations user “status” will not alert that user has left the chat - user status is updated by eventlisteners that detects page closing(disconnect) and page loading(connect). So in a case where session #1 is active while on the same browser a new tab session #2 was created. In this case session #1 will seamlessly become session #2. S in this instance, there was no page reload -> eventlistener didn’t triggered -> session #1 status still “connected”.
-  - Message loss - If two messages are sent at the same time(millisecond accuracy), there is a chance on one of them disappearing.
