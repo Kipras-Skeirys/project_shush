@@ -2,9 +2,9 @@
 Project hosted on:
 www.shush.us.lt
 
-Take me to [pookie](##Intro)
+Take me to [Intro](#Intro)
 
-##Intro
+## <a name="Intro"></a>Intro
 
 This is the outcome of a project that I developed at Vilnius Coding School while taking their one-month web developing course. I choose this kind of project so I could get the most out of the course, also just wanted to see how well I could develop an app from start to finish. But the most important reason is that it looked a whole lot of fun!
 
