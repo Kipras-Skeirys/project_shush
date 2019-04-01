@@ -29,15 +29,17 @@ This project consists of 3 different sections:
 ***
 
 **chat.php** - is the only PHP code that is outside process.php. It is responsible for authenticating or creating a new user and re-directing him to the right place.
+***
 
-
-**script.js** - is a mishmash of ajax requests and code for better interactiveness.
+**script.js** - is responsible for both pre-app and in-app and is a mishmash of ajax requests and code for better interactiveness.
 ![alt text](demo-assets/javascript-code.png "javascript-code")
 *script.js prieview*
+***
 
 **Database** - I am fully aware that this DB scheme design isn’t the best, but as this is the first time for me working with a database this will do.
 ![alt text](demo-assets/database-scehem-noBG.png "database-scheme")
-*Database structure graphic*
+<span style='color:grey'>*Database structure graphic*</span>
+***
 
 ###  <a name="Landing"></a>Landing/product page
 
