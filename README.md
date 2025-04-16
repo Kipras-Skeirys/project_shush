@@ -1,5 +1,5 @@
 <div align="center"><img width="300" src="assets/images/logo_500x500_color-dark.png"/></div>
-<div align="center">www.project-shush.skeirys.com</div>
+<div align="center">https://project-shush.skeirys.com</div>
 
 ## Jump to...
 
